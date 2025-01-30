@@ -1,0 +1,46 @@
+﻿
+.container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+.enterText {
+    margin: 10px;
+}
+
+.btnColumn {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.btnTree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.loadText {
+    width: 600px;
+    height: 50px;
+    margin: 10px;
+    border: solid 2px brown ;
+    background-color: rgb(254, 250, 246);
+}
+
+.textArea {
+    width: 600px;
+    height: 50px;
+    border: solid 2px black;
+}
+
+.btn {
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <div class="titlePage">
+            <h2>Отзывы</h2>
+            <div class="buttons">
+                <button class="btn feedbackBtn">Оставить отзыв</button>
+                <button class="btn viewFeedbackBtn">Просмотр отзывов</button>
+            </div>
+        </div>
+    </section>
+    <section class="container input__feedback ">
+        <div class="input__feedback-hidden">
+            <input class="input__feedback-name" type="text" placeholder="Название продукта">
+            <textarea name="textFeedback" id="text"></textarea>
+            <button class="btn input__feedback-btn">Отправить отзыв</button>
+        </div>
+    </section>
+    <section class="container view">
+        <div class="view__feedback">
+            <ul class="view__feedback-products"></ul>
+        </div>
+        <div class="container view__feedback-ul">
+            <div class="view__feedback-float">
+                <h2 class="nameProduct"></h2>
+                <ul class="ulFloat"></ul>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
